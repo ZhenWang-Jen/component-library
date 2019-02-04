@@ -1,0 +1,103 @@
+  .TrendCard--error-card {
+
+    justify-content: center;
+    min-height: 146px !important;
+    text-align: center;
+  }
+
+  .card {
+    margin: 0 !important;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.05) !important;
+  
+  .content {
+    flex-grow: 0 !important;
+  }
+
+  .gridBody {
+    flex-grow: 1;
+    align-items: center;
+    margin: 0 !important;
+  }
+
+  .header {
+    color: #000000 !important;	
+    font-family: "Open Sans";	
+    font-size: 17px !important;	
+    letter-spacing: 0.38px !important;	
+    line-height: 23px !important;
+    display: inline;
+    margin-right: 5px;
+  }
+
+  .meta {
+    margin-right: 5px;
+    color: #818285 !important;	
+    font-family: "Open Sans";	
+    font-size: 10px !important;	
+    display: inline-block;
+  }
+
+  .info {
+    color: #72757A !important;
+  }
+
+  .primaryValue {
+    color: #252D3A;	
+    font-family: "Open Sans";	
+    font-size: 40px;	
+    letter-spacing: 0.56px;	
+    line-height: 40px;	
+    //text-align: right;
+    text-align: center;
+  }
+
+  .stats--chevronIcon {
+    font-size: 10px;
+    width: auto;
+    height: auto;
+  }
+  
+  .secondaryVaule {
+    color: #818285;	
+    font-family: "Open Sans";	
+    font-size: 10px;	
+    line-height: 13px;	
+    text-align: center;
+  }
+
+  .status {
+    //flex-basis: 6em;
+    color: #818285;	
+    font-family: "Open Sans";	
+    text-align: right;
+
+    > div:first-child {
+      padding-bottom: 4px;
+    }
+  
+    .primaryStats {
+      font-size: 12px;	
+      font-weight: bold;	
+      letter-spacing: 0.38px;	
+      line-height: 17px;
+      padding-bottom: 2px;
+    }
+    .secondaryStats {
+      font-size: 10px;	
+      line-height: 17px;
+      padding-bottom: 4px;
+    }
+  }
+}
+
+// helper class
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+
+.margin0 {
+  margin: 0 !important;
+}

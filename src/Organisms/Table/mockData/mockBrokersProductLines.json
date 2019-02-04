@@ -1,0 +1,42 @@
+{
+    "title": "Product Lines",
+    "infoText": "",
+    "columnHeadings": [
+        "Product Line",
+        "Total Lines",
+        "Total Benefits Eligible",
+        "Total Participants",
+        "Total Premium",
+        "Percentage of Participation",
+        "Product Line Id"
+    ],
+    "tableData": [
+        {
+            "productLine": "Accidental Insurance",
+            "totalLines": 10,
+            "totalBenefitsEligible": 500,
+            "totalParticipants": 400,
+            "totalPremium": 552188,
+            "percentageOfParticipation": 80,
+            "productLineId": 1
+        },
+        {
+            "productLine": "Dental Insurance",
+            "totalLines": 10,
+            "totalBenefitsEligible": 500,
+            "totalParticipants": 400,
+            "totalPremium": 552188,
+            "percentageOfParticipation": 20,
+            "productLineId": 5
+        },
+        {
+            "productLine": "Vision Insurance",
+            "totalLines": 10,
+            "totalBenefitsEligible": 500,
+            "totalParticipants": 400,
+            "totalPremium": 552188,
+            "percentageOfParticipation": 80,
+            "productLineId": 7
+        }
+    ]
+}

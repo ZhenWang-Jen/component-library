@@ -1,0 +1,112 @@
+.ui.dropdown.customized {
+    border-radius: 0 !important;
+}
+
+.ui.selection.active.dropdown, .ui.selection.active.dropdown:hover, .ui.selection.active.dropdown .menu {
+    border-color: #E5E5E5 !important;
+}
+
+.ui.dropdown .menu>.divider {
+    margin: 0 !important;
+}
+
+.search-dropdown {
+    .text {
+        color: rgba(191,191,191,.87);
+    }
+
+    .ui.checkbox input:checked~.box:before, .ui.checkbox input:checked~label:before {
+        background: #F56B09;
+        border-radius: 2px;
+        border-color: transparent;
+    }
+  
+    .ui.checkbox input:checked~.box:after, .ui.checkbox input:checked~label:after {
+        color: #fff;
+    }
+
+    .ui.checkbox {
+        width: 100%;
+        padding: .78571429rem 1.14285714rem!important
+    }
+}
+
+.search-dropdown.ui.selection.dropdown .menu>.item {
+    padding: 0 !important;
+}
+.search-dropdown.ui.dropdown .menu .active.item {
+    font-weight: 400 !important;
+}
+
+.export-dropdown {  // hide the download icon. TODO: Remove this bloack when export data is ready.
+    z-index: -10000;
+    pointer-events: none;
+}
+
+.export-dropdown >.menu {
+    box-shadow:rgba(0,0,0, 0.2) 0px 1px 3px;
+    border: 1px solid #E5E5E5;
+    background: #eee;
+    left: -7rem !important;
+    top: 2rem !important;
+}
+
+.export-dropdown >.menu:after {
+    top: -0.5em;
+    right: 0.3em;
+    transform: rotate(45deg);
+    position:absolute;
+    content: '';
+    width: 1em;
+    height: 1em;
+    box-shadow: -1px -1px 0 0 rgba(34,36,38,.15);
+    background: #ffffff;
+    z-index: 2;  
+}
+.export-dropdown .menu.transition>.item {
+    padding: 0 !important;
+
+    a {
+        padding: .78571429rem 1.14285714rem;
+    }
+}
+.export-dropdown .menu>.item:first-child {
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.export-dropdown a:hover{
+    background:none !important;
+    color:inherit
+}
+
+.highcharts-drillup-button {
+    display: none;
+}
+
+// helper class
+.border-bottom {
+    border: 1px solid #E5E5E5;
+}
+.margin-l-30 {
+    margin-left: 30px;
+}
+.margin-l-15 {
+    margin-left: 15px;
+}
+
+
+/** 
+* For Dropdown with multiple checkbox selection
+*/
+.ui.multiple.search.dropdown>input.search{
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    padding: 0.67857143em 2.1em 0.67857143em 1em;
+}
+.ui.multiple.dropdown>.text{
+    position: relative;
+}
+.ui.selection.dropdown .menu{
+    border-top-width: inherit !important;
+}

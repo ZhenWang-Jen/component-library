@@ -1,0 +1,42 @@
+{
+    "title": "Life Events",
+    "infoText": "Life event counts for the past 30 days, 60 days, and 90 days.",
+    "columnHeadings": [
+        "Event", 
+        "30 Days", 
+        "60 Days", 
+        "90 Days"
+    ],
+    "tableData": [
+        {
+            "event": "Terminations",
+            "30Days": 0,
+            "60Days": 4,
+            "90Days": 5
+        },
+        {
+            "event": "New Hires",
+            "30Days": 0,
+            "60Days": 38,
+            "90Days": 45
+        },
+        {
+            "event": "Birth of a Child",
+            "30Days": 0,
+            "60Days": 1,
+            "90Days": 2
+        },
+        {
+            "event": "Address Changes",
+            "30Days": 0,
+            "60Days": 4,
+            "90Days": 5
+        },
+        {
+            "event": "Marriage/Divorce",
+            "30Days": 0,
+            "60Days": 4,
+            "90Days": 5
+        }
+    ]
+}

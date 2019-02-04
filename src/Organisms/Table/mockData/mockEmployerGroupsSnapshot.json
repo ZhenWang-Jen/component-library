@@ -1,0 +1,148 @@
+{
+    "title": "Employer Groups Snapshot",
+    "columnHeadings": [
+        "Employer Name", 
+        "Total Lives", 
+        "Lives Pending OE", 
+        "Lives In-Process of OE",
+        "Self-Enrolled/Enrollers",
+        "Active/Passive Enrollment",
+        "Current Percentage of Participation",
+        "Lives Enrolled",
+        "New Lives Enrolled from Previous OE"
+    ],
+    "tableData": [
+        {
+            "employerName": "Amazon",
+            "totalLives": 1936,
+            "livesPendingOE": 4032,
+            "livesInProcessOfOE": 529,
+            "selfEnrolledEnrollers": "Self-Enrolled",
+            "activePassiveEnrollment": "Passive",
+            "currentPercentageOfParticipantion": 70,
+            "livesEnrolled": 1000,
+            "newLivesEnrolledFromPreviousOE": 500
+        },
+        {
+            "employerName": "PlanSource",
+            "totalLives": 1036,
+            "livesPendingOE": 4132,
+            "livesInProcessOfOE": 529,
+            "selfEnrolledEnrollers": "Self-Enrolled",
+            "activePassiveEnrollment": "Active",
+            "currentPercentageOfParticipantion": 70,
+            "livesEnrolled": 1000,
+            "newLivesEnrolledFromPreviousOE": 500
+        },
+        {
+            "employerName": "PlanSource",
+            "totalLives": 1036,
+            "livesPendingOE": 532,
+            "livesInProcessOfOE": 529,
+            "selfEnrolledEnrollers": "Enrollees",
+            "activePassiveEnrollment": "Active",
+            "currentPercentageOfParticipantion": 70,
+            "livesEnrolled": 1000,
+            "newLivesEnrolledFromPreviousOE": 500
+        },              
+        {
+            "employerName": "PlanSource",
+            "totalLives": 1036,
+            "livesPendingOE": 4032,
+            "livesInProcessOfOE": 529,
+            "selfEnrolledEnrollers": "Self-Enrolled",
+            "activePassiveEnrollment": "Active",
+            "currentPercentageOfParticipantion": 70,
+            "livesEnrolled": 1000,
+            "newLivesEnrolledFromPreviousOE": 500
+        },
+        {
+            "employerName": "PlanSource",
+            "totalLives": 1036,
+            "livesPendingOE": 4032,
+            "livesInProcessOfOE": 529,
+            "selfEnrolledEnrollers": "Enrollees",
+            "activePassiveEnrollment": "Active",
+            "currentPercentageOfParticipantion": 70,
+            "livesEnrolled": 1000,
+            "newLivesEnrolledFromPreviousOE": 500
+        },
+        {
+            "employerName": "Facebook",
+            "totalLives": 1036,
+            "livesPendingOE": 4032,
+            "livesInProcessOfOE": 529,
+            "selfEnrolledEnrollers": "Enrollees",
+            "activePassiveEnrollment": "Active",
+            "currentPercentageOfParticipantion": 70,
+            "livesEnrolled": 1000,
+            "newLivesEnrolledFromPreviousOE": 500
+        },
+        {
+            "employerName": "Google",
+            "totalLives": 1036,
+            "livesPendingOE": 4032,
+            "livesInProcessOfOE": 529,
+            "selfEnrolledEnrollers": "Enrollees",
+            "activePassiveEnrollment": "Active",
+            "currentPercentageOfParticipantion": 70,
+            "livesEnrolled": 1000,
+            "newLivesEnrolledFromPreviousOE": 500
+        },
+        {
+            "employerName": "Walmart",
+            "totalLives": 2036,
+            "livesPendingOE": 432,
+            "livesInProcessOfOE": 529,
+            "selfEnrolledEnrollers": "Self-Enrolled",
+            "activePassiveEnrollment": "Passive",
+            "currentPercentageOfParticipantion": 30,
+            "livesEnrolled": 900,
+            "newLivesEnrolledFromPreviousOE": 500
+        },
+        {
+            "employerName": "WIX",
+            "totalLives": 936,
+            "livesPendingOE": 1032,
+            "livesInProcessOfOE": 529,
+            "selfEnrolledEnrollers": "Self-Enrolled",
+            "activePassiveEnrollment": "Active",
+            "currentPercentageOfParticipantion": 70,
+            "livesEnrolled": 1000,
+            "newLivesEnrolledFromPreviousOE": 500
+        },
+        {
+            "employerName": "PlanSource",
+            "totalLives": 2436,
+            "livesPendingOE": 4032,
+            "livesInProcessOfOE": 529,
+            "selfEnrolledEnrollers": "Self-Enrolled",
+            "activePassiveEnrollment": "Active",
+            "currentPercentageOfParticipantion": 70,
+            "livesEnrolled": 1000,
+            "newLivesEnrolledFromPreviousOE": 500
+        },
+        {
+            "employerName": "PlanSource",
+            "totalLives": 3336,
+            "livesPendingOE": 4032,
+            "livesInProcessOfOE": 529,
+            "selfEnrolledEnrollers": "Self-Enrolled",
+            "activePassiveEnrollment": "Active",
+            "currentPercentageOfParticipantion": 40,
+            "livesEnrolled": 2000,
+            "newLivesEnrolledFromPreviousOE": 200
+        },   
+        {
+            "employerName": "PlanSource",
+            "totalLives": 1236,
+            "livesPendingOE": 2032,
+            "livesInProcessOfOE": 129,
+            "selfEnrolledEnrollers": "Self-Enrolled",
+            "activePassiveEnrollment": "Active",
+            "currentPercentageOfParticipantion": 70,
+            "livesEnrolled": 3000,
+            "newLivesEnrolledFromPreviousOE": 800
+        }  
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "title": "Plan Year History",
+    "columnHeadings": [
+        "Plan Year Name", 
+        "Plan Year Status", 
+        "Start Date",
+        "End Date",
+        "OE Start Date",
+        "OE End Date",
+        "Total Lines",
+        "Total Benefits Eligible",
+        "Total Participants",
+        "Total Premium",
+        "Percentage of Participation"
+    ],
+    "tableData": [
+        {
+            "planYearName": 9999,
+            "planYearStatus": "Active",
+            "startDate": "99/99/99",
+            "endDate": "99/99/99",
+            "oeStartDate": "99/99/99",
+            "oeEndDate": "99/99/99",
+            "totalLines": 9,
+            "totalBenefitsEligible": 9,
+            "totalParticipants": 99,
+            "totalPremium": 99.99,
+            "percentageOfParticipation": 9
+        },
+        {
+            "planYearName": 9999,
+            "planYearStatus": "Inactive",
+            "startDate": "99/99/99",
+            "endDate": "99/99/99",
+            "oeStartDate": "99/99/99",
+            "oeEndDate": "99/99/99",
+            "totalLines": 9,
+            "totalBenefitsEligible": 9,
+            "totalParticipants": 99,
+            "totalPremium": 99.99,
+            "percentageOfParticipation": 9
+        }
+    ]
+}

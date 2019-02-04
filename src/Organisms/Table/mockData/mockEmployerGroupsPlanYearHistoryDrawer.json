@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Plan Year History Drawer",
+        "infoText": "",
+        "columnHeadings": [
+            "Benefit Classification", 
+            "Classification Type", 
+            "Benefit Name", 
+            "Total Eligible",
+            "Totl Enrolled",
+            "Percentage of Participation",
+            "Total Paid Premium",
+            "Original Effective Date"
+        ],
+        "tableData": [
+            {
+                "benefitClassification": "Test",
+                "classificationType": "Employee",
+                "benefitName": "Employer Paid Term Life",
+                "totalEligible": 999,
+                "totlEnrolled": 999,
+                "percentageOfParticipation": 99,
+                "totalPaidPermium": 9999,
+                "originalEffectiveDate": "99/99/99"
+            },
+            {
+                "benefitClassification": "Test",
+                "classificationType": "Employee",
+                "benefitName": "Employer Paid Term Life",
+                "totalEligible": 999,
+                "totlEnrolled": 999,
+                "percentageOfParticipation": 99,
+                "totalPaidPermium": 9999,
+                "originalEffectiveDate": "99/99/99"
+            }
+        ]
+    }
+]

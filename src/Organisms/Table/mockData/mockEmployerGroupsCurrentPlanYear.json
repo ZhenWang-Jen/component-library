@@ -1,0 +1,62 @@
+[
+    {
+        "title": "Plan Year History",
+        "infoText": "",
+        "columnHeadings": [
+            "Plan Year Name",
+            "Plan Year Status",
+            "Primary",
+            "Start Date",
+            "End Date",
+            "OE Start Date",
+            "OE End Date",
+            "Total Lines",
+            "Total Benefits Eligible",
+            "Total Participants",
+            "Total Premium",
+            "Percentage of Participation"
+        ],
+        "tableData": [
+            {
+                "planYearName": "Lockton",
+                "planYearStatus": "Non-Active",
+                "primary": "primary",
+                "startDate": "02/01/2015",
+                "endDate": "12/31/2019",
+                "OeStartDate": "02/01/2015",
+                "OeEndDate": "12/31/2019",
+                "totalLines": 9,
+                "totalBenefitsEligible": 3980,
+                "totalParticipants": 3549,
+                "totalPremium": 1206660,
+                "percentageOfParticipation": 91
+            }
+        ]
+    },
+    {
+        "title": "List of Benefits Section",
+        "infoText": "",
+        "columnHeadings": [
+            "Benefit Classification",
+            "Classification Type",
+            "Benefit Name",
+            "Total Eligible",
+            "Total Enrolled",
+            "Percentage of Participation",
+            "Total Paid Premium",
+            "Original Effective Date"
+        ],
+        "tableData": [
+            {
+                "benefitClassification": "Lockton",
+                "classificationType": "Employee",
+                "benefitName": "Employer Paid Term Life",
+                "totalEligible": 495,
+                "totalEnrolled": 552.75,
+                "percentageOfParticipation": 80,
+                "totalPaidPremium": 3333,
+                "originalEffectiveDate": "05/15/2017"
+            }
+        ]
+    }
+]

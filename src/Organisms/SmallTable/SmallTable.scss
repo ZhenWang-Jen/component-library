@@ -1,0 +1,109 @@
+.smallTable_wrapper {
+    //box-shadow: 0 2px 4px 0 rgba(0,0,0,0.05);
+    height: 383px;
+    display: flex;
+    flex-direction: column;
+    min-width: 125px;
+}
+.commonStyle_tableHeader {
+    padding: 10px;
+    color: #535353;
+    font-size: 17px;
+    line-height: 23px;
+    text-align: center;
+}
+
+.regularTable_tableBodyWrapper {
+    display: flex;
+    height: 100%;
+}
+.regularTable_colHeader {
+    color: #72757A;
+    text-align: center;
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 600;
+    letter-spacing: 0.29px;
+    line-height: 18px;
+    padding-top: 15px;
+}
+.regularTable_tableBody {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+    
+    &:before, &:after {
+        content: '';
+        display: block;
+    }
+}
+.regularTable_rowWrapper {
+    display: flex;
+    //flex: 1;
+    align-items: center;
+}
+.regularTable_rowHeader {
+    text-align: center;
+    color: #818285;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 0.34px;
+    margin: 0px 3px;
+    width: 20%;
+}
+.regularTable_cellValue {
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 0.34px;
+    margin: 0px 3px;
+    font-weight: bold;
+    width: 80%;
+}
+
+.small_tableBodyWrapper {
+    max-height: 330px;
+    overflow: auto;
+}
+
+.small_tableBody {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.small_colHeader {
+    height: 27px;
+    vertical-align: middle;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 1px solid #E1E3EA;
+}
+
+.small_colHeaderItem {
+    width: 30%;
+    text-align: center;
+    color: #72757A;
+    font-size: 10px;
+    letter-spacing: 0.32px;
+    line-height: 14px;
+    cursor: pointer;
+}
+
+.small_tableRow {
+    height: 27px;
+    vertical-align: middle;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.small_cellValue {
+    width: 33%;
+    text-align: center;
+    color: #818285;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 0.27px;
+    line-height: 21px;
+}

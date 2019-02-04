@@ -1,0 +1,145 @@
+{
+    "title": "List of Benefits Section",
+    "columnHeadings": [
+        "Benefit Classification", 
+        "Classification Type", 
+        "Benefit Name", 
+        "Total Eligible",
+        "Totl Enrolled",
+        "Percentage of Participation",
+        "Total Paid Premium",
+        "Original Effective Date"
+    ],
+    "tableData": [
+        {
+            "benefitClassification": "Lockton",
+            "classificationType": "Employee",
+            "benefitName": "Employer Paid Term Life",
+            "totalEligible": 450,
+            "totlEnrolled": 522,
+            "percentageOfParticipation": 92,
+            "totalPaidPermium": 5000,
+            "originalEffectiveDate": "7/20/2015"
+        },
+        {
+            "benefitClassification": "HDMI",
+            "classificationType": "Employee",
+            "benefitName": "Employer Paid Term Life",
+            "totalEligible": 450,
+            "totlEnrolled": 522,
+            "percentageOfParticipation": 92,
+            "totalPaidPermium": 5000,
+            "originalEffectiveDate": "7/10/2013"
+        },
+        {
+            "benefitClassification": "LG",
+            "classificationType": "Employee",
+            "benefitName": "Employer Paid Term Life",
+            "totalEligible": 450,
+            "totlEnrolled": 522,
+            "percentageOfParticipation": 92,
+            "totalPaidPermium": 5000,
+            "originalEffectiveDate": "7/20/2009"
+        },
+        {
+            "benefitClassification": "TCL",
+            "classificationType": "Employee",
+            "benefitName": "Employer Paid Term Life",
+            "totalEligible": 450,
+            "totlEnrolled": 82,
+            "percentageOfParticipation": 22,
+            "totalPaidPermium": 5000,
+            "originalEffectiveDate": "7/20/2015"
+        },
+        {
+            "benefitClassification": "HP",
+            "classificationType": "Employee",
+            "benefitName": "Employer Paid Term Life",
+            "totalEligible": 150,
+            "totlEnrolled": 22,
+            "percentageOfParticipation": 10,
+            "totalPaidPermium": 3334,
+            "originalEffectiveDate": "7/20/2018"
+        },
+        {
+            "benefitClassification": "Lockton",
+            "classificationType": "Employee",
+            "benefitName": "Employer Paid Term Life",
+            "totalEligible": 450,
+            "totlEnrolled": 22,
+            "percentageOfParticipation": 22,
+            "totalPaidPermium": 1920,
+            "originalEffectiveDate": "7/20/2012"
+        },
+        {
+            "benefitClassification": "Facebook",
+            "classificationType": "Employee",
+            "benefitName": "Employer Paid Term Life",
+            "totalEligible": 450,
+            "totlEnrolled": 522,
+            "percentageOfParticipation": 92,
+            "totalPaidPermium": 5000,
+            "originalEffectiveDate": "7/20/2013"
+        },
+        {
+            "benefitClassification": "Tesla",
+            "classificationType": "Employee",
+            "benefitName": "Employer Paid Term Life",
+            "totalEligible": 150,
+            "totlEnrolled": 32,
+            "percentageOfParticipation": 32,
+            "totalPaidPermium": 1000,
+            "originalEffectiveDate": "5/20/2018"
+        },
+        {
+            "benefitClassification": "Costco",
+            "classificationType": "Employee",
+            "benefitName": "Employer Paid Term Life",
+            "totalEligible": 50,
+            "totlEnrolled": 32,
+            "percentageOfParticipation": 62,
+            "totalPaidPermium": 1000,
+            "originalEffectiveDate": "7/20/2013"
+        },
+        {
+            "benefitClassification": "Safeway",
+            "classificationType": "Employee",
+            "benefitName": "Employer Paid Term Life",
+            "totalEligible": 450,
+            "totlEnrolled": 122,
+            "percentageOfParticipation": 22,
+            "totalPaidPermium": 5000,
+            "originalEffectiveDate": "1/20/2018"
+        },
+        {
+            "benefitClassification": "Walmart",
+            "classificationType": "Employee",
+            "benefitName": "Employer Paid Term Life",
+            "totalEligible": 250,
+            "totlEnrolled": 122,
+            "percentageOfParticipation": 92,
+            "totalPaidPermium": 5000,
+            "originalEffectiveDate": "7/12/2014"
+        },
+        {
+            "benefitClassification": "Google",
+            "classificationType": "Employee",
+            "benefitName": "Employer Paid Term Life",
+            "totalEligible": 250,
+            "totlEnrolled": 88,
+            "percentageOfParticipation": 32,
+            "totalPaidPermium": 2334,
+            "originalEffectiveDate": "1/20/2005"
+        },
+        {
+            "benefitClassification": "Amazon",
+            "classificationType": "Employee",
+            "benefitName": "Employer Paid Term Life",
+            "totalEligible": 250,
+            "totlEnrolled": 232,
+            "percentageOfParticipation": 89,
+            "totalPaidPermium": 2997,
+            "originalEffectiveDate": "3/20/2015"
+        }
+    ]
+}

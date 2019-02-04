@@ -1,0 +1,226 @@
+/**************************************************/
+/* Table
+/**************************************************/
+// Search Box
+.ui.input input {
+  border-radius: 0 !important;
+}
+
+// Export component
+.export-dropdown {
+  float: right !important;
+  a {
+    display: block;
+    color: #818285;
+    line-height: 17px;
+    font-size: 12px;
+    text-align: center;
+  }
+  a:hover {
+    background-color: #ebebeb;
+  }
+}
+
+// Showing page results text
+.showingPage {
+  float: right;
+  transform: translate(15%,105%);
+  color: #BCBEBE;	
+  font-family: Avenir;	
+  font-size: 14px;	
+  line-height: 20px;
+}
+
+/* Override SemanticUI Table Responsive */
+
+.tableWrapper {
+  // overflow-x: auto; 
+  // position: static !important;
+  
+  table {
+    position: static !important;
+  }
+
+  .ui.table td, .ui.table th {
+    transition: none;
+  }
+  .ui.table:not(.unstackable) tbody {
+      display: table-row-group !important;
+  }
+  .ui.table:not(.unstackable) thead {
+    display: table-header-group !important;
+  }
+  // .ui.table thead th:first-child, .ui.table td:first-child {
+  //   // text-align: left;
+  //   // padding-left: 1rem;
+  //   position: sticky !important;
+  //   left: 0 !important;
+  // }
+  .ui.table:not(.unstackable) tfoot {
+    display: table-footer-group !important;
+  }
+  
+  .ui.table:not(.unstackable) tr {
+      display: table-row;
+  }
+  .ui.table:not(.unstackable) tr > th,
+  .ui.table:not(.unstackable) tr > td {
+      display: table-cell !important;
+  }
+
+  .ui.table thead th:first-child, td:first-child {
+      position: sticky !important;
+      left: 0 !important;
+  }
+
+  tr:nth-child(2n) {
+    th:first-child, td:first-child {
+      background-color: rgba(244, 244, 244, 1) !important;
+      -webkit-box-shadow: 4px 0 5px -2px rgba(0,0,0,0.05);
+      box-shadow: 4px 0 5px -2px rgba(0,0,0,0.05);
+    }
+  }
+
+  tr:nth-child(odd) {
+    th:first-child, td:first-child {
+      background-color: rgba(255, 255, 255, 1) !important;
+      -webkit-box-shadow: 4px 0 5px -2px rgba(0,0,0,0.05);
+      box-shadow: 4px 0 5px -2px rgba(0,0,0,0.05);
+    }
+  }
+
+  .drawerRow > td:first-child {
+    padding-left: 8em !important;
+  }
+  .inline-flex > div {
+    padding: 0 5px !important;
+  }
+}
+
+.ui.table thead th, .currentPlanYear-th {
+  text-align: center;
+  border-left: none !important;
+  color: #72757A !important;	
+  font-family: "Open Sans";	
+  font-size: 12px;	
+  font-weight: bold;
+  line-height: 17px;
+
+  white-space: normal !important;
+  word-wrap: break-word !important;
+}
+// .ui.table thead th {
+//   max-width: 100px !important;
+// }
+
+// .ui.table thead th:last-child, .currentPlanYear-th:last-child {
+//   text-align: right;
+//   padding-right: 1rem;
+// }
+
+.ui.table tr td {
+  border-top: none;
+}
+
+.ui.table td, .currentPlanYear-td {
+  color: #818285;	
+  font-family: "Open Sans";	
+  font-size: 12px;	
+  font-weight: normal;	
+  line-height: 17px;
+  text-align: center;
+}
+
+.ui.table thead th:first-child, .ui.table td:first-child {
+  text-align: left;
+  padding-left: 1rem;
+  position: sticky !important;
+  left: 0 !important;
+}
+
+.ui.largeTable.table tbody tr td {
+  padding-top: 28px;
+  padding-bottom: 28px;
+}
+
+// to override style for pagination & dropdown components
+.customizedFooter {
+  margin: 0 !important;
+  border: none !important;
+  th {
+    background: transparent !important;
+  }
+}
+
+tfoot {
+  .rowsPerPage {
+    color: #BCBEBE;
+    font-family: Avenir;
+    font-size: 14px;
+    line-height: 20px
+  }
+  .text {
+    color: #4E5054;	
+    font-family: Avenir;	
+    font-size: 14px;	
+    line-height: 20px;
+  }
+  .ui.dropdown>.dropdown.icon {
+    margin: 2px !important;
+  }
+  i.icon.dropdown:before {
+    content: "\F0DC" !important;
+    font-family: Icons;
+    color: #4E5054;
+    font-size: 10px;
+    line-height: 10px;
+  }
+  // page numbers
+  .ui.menu.customized {
+    border-bottom: none !important;
+  }
+  .ui.menu.customized .item {
+    color: #CA5803 !important;	
+    font-family: Avenir !important;	
+    font-size: 14px !important;	
+    line-height: 20px !important;
+  }
+  .ui.menu.customized .active.item {
+    color: #BCBEBE !important;
+    border-color: transparent !important;
+  }
+}
+
+// Table Drawer
+.drawerRow, .ui.basic.striped.table tbody tr:nth-child(2n).drawerRow {
+  background: #EBEBEB !important;
+}
+
+.drawerRow {
+  a {
+    cursor: pointer;
+    color: #CA5803;
+    font-size: 12px;
+    position: relative;
+    top: 10px;
+    text-decoration: underline;
+  }
+}
+// .drawerRowBorder:before {
+//   content: "";
+//     position: absolute;
+//     left: 1rem;
+//     bottom: 0;
+//     height: 1px;
+//     width: 80%;
+//     border-bottom: 1px solid magenta;
+// }
+
+// helper classes
+.inline-flex {
+  display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex: 1 1 0%;
+    justify-content: space-between;
+}

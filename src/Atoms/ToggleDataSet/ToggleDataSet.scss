@@ -1,0 +1,40 @@
+.ui.button.back {
+    padding: 7px 20px !important;
+    border-radius: 2px !important;
+    border: none !important;
+    background-color: #ca5803 !important;
+    color: #ffffff !important;
+    font-size: 12px !important;
+    font-weight: 600;
+    letter-spacing: 0.27px;
+    line-height: 17px;
+}
+
+.ui.button.group {
+    border: 1px solid #e5e5e5;
+    font-family: "Open Sans";	
+    font-size: 14px;	
+    font-weight: 600;	
+    letter-spacing: 0.45px;	
+    line-height: 19px;
+    padding: 5px 10px;
+}
+
+.ui.button.group:first-child {
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+.ui.button.group:last-child {
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+.ui.active.button {
+    color: #646569;
+    background-color: #f4f5f7; 
+}
+.ui.button.group:not(.active) {
+    color: #cbcbcb;
+    background-color: #ffffff;
+}

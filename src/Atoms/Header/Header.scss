@@ -1,0 +1,33 @@
+.ui.header {
+    margin: 0;
+}
+
+.ui.header.customized {
+    margin: 0;
+    color: #535353;	
+    font-family: "Open Sans";	
+    font-size: 17px;		
+    letter-spacing: 0.38px;	
+    line-height: 23px;
+    font-weight: lighter;
+}
+
+.ui.header.customized.error--container {
+    padding: 10px;    
+}
+
+.ui.header.customized.bold {
+    font-weight: bold;
+}
+
+.ui.header > img {
+    height: 13px;
+    width: 16.35px;
+}
+
+.ui.header.customized > .sub {
+    color: #4E5054 !important;	
+    font-family: "Open Sans";	
+    font-size: 12px !important;	
+    line-height: 17px !important;
+}

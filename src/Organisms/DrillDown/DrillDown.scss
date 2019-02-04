@@ -1,0 +1,330 @@
+.breadcrumb.customized {
+  padding: 10px 20px;
+  margin-bottom: 8px;
+
+  .home {
+    color: #ca5803;
+  }
+}
+
+.DrillDown__Main--wrapper {
+  .ui.dropdown.quick-year-filter {
+    min-width: 100%;
+  }
+  .BreadCrumb--section {
+    height: 39px;
+    max-height: 39px;
+    min-height: 39px;
+  }
+}
+.smalltable__header {
+  padding: 10px 20px;
+  color: rgb(83, 83, 83);
+  font-size: 17px;
+  line-height: 23px
+}
+// .DrillDown__Table {
+//   height: 460px;
+//   flex: 4 1 auto;
+//   min-width: 264px !important;
+// }
+.DrillDown__Table--scrollWrapper {
+    max-height: 300px;
+    overflow-x: auto;
+  }
+.DrillDown__Table--body {
+  margin: 0px;
+  // border-bottom: 1px solid #e1e3ea;
+  > .DrillDown__Table--row {
+    display: grid;
+    grid-template-columns: 45fr repeat(3, 34fr);
+    grid-template-rows: repeat(auto-fill, 30px);
+    overflow: hidden;
+    border-bottom: 1px solid #e1e3ea;
+    padding-left: 10px;
+    margin-left: 0px !important;
+
+    > span:nth-child(1) {
+      color: #818285;
+      font-weight: normal;
+      font-size: 11px;
+      font-family: "Open Sans";
+      justify-self: start;
+      align-self: center;
+
+      &.colHeader {
+        font-size: 10px;
+        color: #818285;
+      }
+
+      &.rowHeader {
+        color: #818285;
+        font-family: "Open Sans";
+        font-size: 11px;
+        font-weight: bold;
+        letter-spacing: 0.29px;
+        line-height: 30px;
+      }
+    }
+
+    > span:nth-child(2) {
+      color: #818285;
+      font-weight: normal;
+      font-size: 11px;
+      font-family: "Open Sans";
+      justify-self: start;
+      align-self: center;
+      padding-left: 5px;
+
+      &.colHeader {
+        font-size: 10px;
+        color: #818285;
+      }
+
+      &.rowHeader {
+        color: #818285;
+        font-family: "Open Sans";
+        font-size: 11px;
+        font-weight: bold;
+        letter-spacing: 0.29px;
+        line-height: 30px;
+      }
+    }
+
+    > span:nth-child(3) {
+      color: #818285;
+      font-weight: normal;
+      font-size: 11px;
+      font-family: "Open Sans";
+      justify-self: start;
+      align-self: center;
+      padding-left: 5px;
+
+      &.colHeader {
+        font-size: 10px;
+        color: #818285;
+      }
+
+      &.rowHeader {
+        color: #818285;
+        font-family: "Open Sans";
+        font-size: 11px;
+        font-weight: bold;
+        letter-spacing: 0.29px;
+        line-height: 30px;
+      }
+    }
+
+    > span:nth-child(4) {
+      color: #818285;
+      font-weight: normal;
+      font-size: 11px;
+      font-family: "Open Sans";
+      justify-self: start;
+      align-self: center;
+      padding-left: 5px;
+
+      &.colHeader {
+        font-size: 10px;
+        color: #818285;
+      }
+
+      &.rowHeader {
+        color: #818285;
+        font-family: "Open Sans";
+        font-size: 11px;
+        font-weight: bold;
+        letter-spacing: 0.29px;
+        line-height: 30px;
+      }
+    }
+  }
+  > .DrillDown__Table--row:nth-child(1) {
+    display: grid;
+    grid-template-columns: 45fr repeat(3, 34fr);
+    grid-template-rows: repeat(auto-fill, 30px);
+    overflow: hidden;
+    margin-left: 16px;
+
+    > span:nth-child(1) {
+      color: #818285;
+      font-weight: normal;
+      font-size: 11px;
+      font-family: "Open Sans";
+      justify-self: start;
+      align-self: center;
+
+      &.colHeader {
+        font-size: 10px;
+        color: #818285;
+      }
+
+      &.rowHeader {
+        color: #818285;
+        font-family: "Open Sans";
+        font-size: 11px;
+        font-weight: bold;
+        letter-spacing: 0.29px;
+        line-height: 30px;
+      }
+    }
+
+    > span:nth-child(2) {
+      color: #818285;
+      font-weight: normal;
+      font-size: 11px;
+      font-family: "Open Sans";
+      justify-self: start;
+      align-self: center;
+      padding-left: 5px;
+
+      &.colHeader {
+        font-size: 10px;
+        color: #818285;
+      }
+
+      &.rowHeader {
+        color: #818285;
+        font-family: "Open Sans";
+        font-size: 11px;
+        font-weight: bold;
+        letter-spacing: 0.29px;
+        line-height: 30px;
+      }
+    }
+
+    > span:nth-child(3) {
+      color: #818285;
+      font-weight: normal;
+      font-size: 11px;
+      font-family: "Open Sans";
+      justify-self: start;
+      align-self: center;
+      padding-left: 5px;
+
+      &.colHeader {
+        font-size: 10px;
+        color: #818285;
+      }
+
+      &.rowHeader {
+        color: #818285;
+        font-family: "Open Sans";
+        font-size: 11px;
+        font-weight: bold;
+        letter-spacing: 0.29px;
+        line-height: 30px;
+      }
+    }
+
+    > span:nth-child(4) {
+      color: #818285;
+      font-weight: normal;
+      font-size: 11px;
+      font-family: "Open Sans";
+      justify-self: start;
+      align-self: center;
+      &.colHeader {
+        font-size: 10px;
+        color: #818285;
+        padding-right: 10px;
+      }
+
+      &.rowHeader {
+        color: #818285;
+        font-family: "Open Sans";
+        font-size: 11px;
+        font-weight: bold;
+        letter-spacing: 0.29px;
+        line-height: 30px;
+      }
+    }
+  }
+
+  > .DrillDown__Table--three-cols {
+    display: grid;
+    grid-template-columns: 50fr repeat(2, 40fr);
+    grid-template-rows: repeat(auto-fill, 30px);
+    overflow: hidden;
+    border-bottom: 1px solid #e1e3ea;
+    padding-left: 10px;
+
+    > span {
+      color: #818285;
+      font-weight: normal;
+      font-size: 11px;
+      font-family: "Open Sans";
+      justify-self: start;
+      align-self: center;
+
+      &.colHeader {
+        font-size: 10px;
+        color: #818285;
+      }
+
+      &.rowHeader {
+        color: #818285;
+        font-family: "Open Sans";
+        font-size: 11px;
+        font-weight: bold;
+        letter-spacing: 0.29px;
+        line-height: 30px;
+      }
+    }
+
+    > span:nth-child(2) {
+      color: #818285;
+      font-weight: normal;
+      font-size: 11px;
+      font-family: "Open Sans";
+      justify-self: start;
+      align-self: center;
+      padding-left: 7.5px;
+      margin-left: 6px;
+
+      &.colHeader {
+        font-size: 10px;
+        color: #818285;
+      }
+
+      &.rowHeader {
+        color: #818285;
+        font-family: "Open Sans";
+        font-size: 11px;
+        font-weight: bold;
+        letter-spacing: 0.29px;
+        line-height: 30px;
+      }
+    }
+
+
+    > span:nth-child(3) {
+      color: #818285;
+      font-weight: normal;
+      font-size: 11px;
+      font-family: "Open Sans";
+      justify-self: start;
+      align-self: center;
+      padding-left: 15px;
+      margin-left: 15px;
+
+      &.colHeader {
+        font-size: 10px;
+        color: #818285;
+      }
+
+      &.rowHeader {
+        color: #818285;
+        font-family: "Open Sans";
+        font-size: 11px;
+        font-weight: bold;
+        letter-spacing: 0.29px;
+        line-height: 30px;
+      }
+    }
+  }
+}
+
+.no-result-message-drilldown {
+  text-align: center;
+}

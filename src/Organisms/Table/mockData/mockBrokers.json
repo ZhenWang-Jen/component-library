@@ -1,0 +1,65 @@
+{
+    "title": "Brokers",
+    "columnHeadings": [
+        "Broker Name", 
+        "Broker ID",
+        "Broker Location", 
+        "Total Employer Groups", 
+        "Total Lines",
+        "Total Lives",
+        "Total Benefits Eligible",
+        "Total Participants",
+        "Total Premium",
+        "Percentage of Participation"
+    ],
+    "tableData": [
+        {
+            "brokerName": "Lockton",
+            "brokerId": 1,
+            "brokerLocation": "UT",
+            "totalEmployerGroups": 45,
+            "totalLines": 125,
+            "totalLives": 6000,
+            "totalBenefitsEligible": 5000,
+            "totalParticipants": 4000,
+            "totalPremium": 26915.55,
+            "percentageOfParticipantion": 80
+        },
+        {
+            "brokerName": "Test",
+            "brokerId": 2,
+            "brokerLocation": "UT",
+            "totalEmployerGroups": 45,
+            "totalLines": 125,
+            "totalLives": 6000,
+            "totalBenefitsEligible": 5000,
+            "totalParticipants": 4000,
+            "totalPremium": 26915.55,
+            "percentageOfParticipantion": 80
+        },
+        {
+            "brokerName": "Test",
+            "brokerId": 3,
+            "brokerLocation": "UT",
+            "totalEmployerGroups": 45,
+            "totalLines": 125,
+            "totalLives": 6000,
+            "totalBenefitsEligible": 5000,
+            "totalParticipants": 4000,
+            "totalPremium": 26915.55,
+            "percentageOfParticipantion": 80
+        },
+        {
+            "brokerName": "Test",
+            "brokerId": 4,
+            "brokerLocation": "UT",
+            "totalEmployerGroups": 45,
+            "totalLines": 125,
+            "totalLives": 6000,
+            "totalBenefitsEligible": 5000,
+            "totalParticipants": 4000,
+            "totalPremium": 26915.55,
+            "percentageOfParticipantion": 80
+        }
+    ]
+}

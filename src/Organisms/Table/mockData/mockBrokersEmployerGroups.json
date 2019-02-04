@@ -1,0 +1,97 @@
+{
+    "title": "Employer Groups",
+    "infoText": "",
+    "columnHeadings": [
+        "Employer Group Name",
+        "Client Id",
+        "Total Eligible",
+        "Total Enrolled",
+        "Percentage of Participation",
+        "Total Paid Premium",
+        "Original Effective Date",
+        "PlanYear Start Date",
+        "PlanYear End Date",
+        "OE Start Date",
+        "OE End Date"
+    ],
+    "tableData": [
+        {
+            "employerGroupName": "PlanSource",
+            "clientId": 1,
+            "totalEligible": 506,
+            "totalEnrolled": 400,
+            "percentageOfParticipation": 64,
+            "totalPaidPremium": 5521.88,
+            "originalEffectiveDate": "1/1/18",
+            "planYearStartDate": "12/32/18",
+            "planYearEndDate": "12/32/18",
+            "oeStartDate": "12/32/18",
+            "oeEndDate": "12/32/18"
+        },
+        {
+            "employerGroupName": "Amazon",
+            "clientId": 2,
+            "totalEligible": 506,
+            "totalEnrolled": 400,
+            "percentageOfParticipation": 64,
+            "totalPaidPremium": 5521.88,
+            "originalEffectiveDate": "1/1/18",
+            "planYearStartDate": "12/32/18",
+            "planYearEndDate": "12/32/18",
+            "oeStartDate": "12/32/18",
+            "oeEndDate": "12/32/18"
+        },
+        {
+            "employerGroupName": "Google",
+            "clientId": 3,
+            "totalEligible": 506,
+            "totalEnrolled": 400,
+            "percentageOfParticipation": 64,
+            "totalPaidPremium": 5521.88,
+            "originalEffectiveDate": "1/1/18",
+            "planYearStartDate": "12/32/18",
+            "planYearEndDate": "12/32/18",
+            "oeStartDate": "12/32/18",
+            "oeEndDate": "12/32/18"
+        },
+        {
+            "employerGroupName": "Clairvoyant",
+            "clientId": 4,
+            "totalEligible": 506,
+            "totalEnrolled": 400,
+            "percentageOfParticipation": 64,
+            "totalPaidPremium": 5521.88,
+            "originalEffectiveDate": "1/1/18",
+            "planYearStartDate": "12/32/18",
+            "planYearEndDate": "12/32/18",
+            "oeStartDate": "12/32/18",
+            "oeEndDate": "12/32/18"
+        },
+        {
+            "employerGroupName": "Prism",
+            "clientId": 5,
+            "totalEligible": 506,
+            "totalEnrolled": 400,
+            "percentageOfParticipation": 64,
+            "totalPaidPremium": 5521.88,
+            "originalEffectiveDate": "1/1/18",
+            "planYearStartDate": "12/32/18",
+            "planYearEndDate": "12/32/18",
+            "oeStartDate": "12/32/18",
+            "oeEndDate": "12/32/18"
+        },
+        {
+            "employerGroupName": "Facebook",
+            "clientId": 6,
+            "totalEligible": 506,
+            "totalEnrolled": 400,
+            "percentageOfParticipation": 64,
+            "totalPaidPremium": 5521.88,
+            "originalEffectiveDate": "1/1/18",
+            "planYearStartDate": "12/32/18",
+            "planYearEndDate": "12/32/18",
+            "oeStartDate": "12/32/18",
+            "oeEndDate": "12/32/18"
+        }
+    ]
+}
