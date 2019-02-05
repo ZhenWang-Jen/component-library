@@ -1,4 +1,29 @@
-// .AppWrapper {
-//   max-width: 1200px;
-//   margin: auto;
-// }
+body {
+    overflow-y: hidden;
+}
+.vertical.sidebar {
+    z-index: -1 !important;
+    border: none;
+    -webkit-box-shadow: 4px 0 5px -2px rgba(0,0,0,0.05) !important;
+    box-shadow: 4px 0 5px -2px rgba(0,0,0,0.05) !important;
+    top: 54.63px;
+    width: 221px !important;
+}
+
+.borderless.menu {
+    margin: 0 !important;
+}
+
+.mainPage {
+    min-width: 550px;
+    height: 100%;
+    position: absolute;
+    left: 221px;
+    width: calc(100% - 221px);
+
+    .maxWidthPage {
+        max-width: 1200px;
+        margin: auto;
+        padding: 2rem;
+    }
+}

@@ -190,7 +190,7 @@ export default class ComparisonCard extends React.Component {
     
     if (this.props.chartType != 'sparkLine') {
      return ( 
-      <Grid style={{margin: 0}} id={this.props.ids ? this.props.ids.graph : null}>
+      <Grid className={'comparisionCard'} id={this.props.ids ? this.props.ids.graph : null}>
         <Grid.Column width={12} style={{padding: 0}}>
           <Container
             title={this.props.data.title}

@@ -9,7 +9,6 @@ import 'semantic-ui-css/semantic.min.css';
 // configure(loadStories, module);
 
 import React from 'react';
-// import { MuiThemeProvider, createMuiTheme } from "@material-ui/core/styles";
 import { configure, addDecorator, setAddon } from '@storybook/react';
 import chaptersAddon from 'react-storybook-addon-chapters';
 // import { withConsole } from '@storybook/addon-console';
